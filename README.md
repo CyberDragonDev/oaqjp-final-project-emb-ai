@@ -18,6 +18,7 @@ The application features:
 
 - Python 3.XX
 - `requests` library
+- `json` library
 
 ### Running the Package Test
 

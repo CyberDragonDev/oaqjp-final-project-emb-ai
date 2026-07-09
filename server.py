@@ -18,6 +18,7 @@ def text_detector():
     
     response = emotion_detector(text_to_analyze)
     
+    # Error handling for empty inputs
     if response['dominant_emotion'] is None:
         return "Invalid text! Please try again."
     
